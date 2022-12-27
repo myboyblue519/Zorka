@@ -1,0 +1,17 @@
+@use "variables" as *;
+
+@font-face {
+    font-family: Halflings;
+    src: url(../fonts/Halflings/glyphicons-halflings-regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather/Merriweather/Merriweather-Italic.ttf);
+    src: url(../fonts/Merriweather/Merriweather/Merriweather-Light.ttf);
+}
+
+@font-face {
+    font-family: MerriweatherSans;
+    src: url(../fonts/MerriweatherSans/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf);
+}

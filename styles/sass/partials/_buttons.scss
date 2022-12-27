@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+
+.addToCart {
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.addToCart:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+
+.repeatButton {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.heartIcon {
+    background-color: white;
+    border-radius: 50%;
+
+
+}

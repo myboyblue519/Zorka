@@ -1,0 +1,46 @@
+@use "variables" as *;
+
+.collections {
+    display: flex;
+    justify-content: center;
+
+    // flex-direction: ;
+
+
+
+    .newIn {
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+        }
+    }
+
+    .featured {
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+        }
+    }
+
+    .topRated {
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+.blog {
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            display: flex;
+        }
+    }
+}

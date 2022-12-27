@@ -1,0 +1,43 @@
+@use "variables" as *;
+
+.trendy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    .trendyImg {
+        width: 10rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+
+    .clothingDepartments {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin: auto 34px;
+            font-size: 1rem;
+        }
+    }
+
+    .trendingPhotos {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+        p {
+            font-size: 0.8rem;
+        }
+
+
+    }
+}

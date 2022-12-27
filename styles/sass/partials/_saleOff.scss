@@ -1,0 +1,20 @@
+@use "variables" as *;
+
+.saleOff {
+    .salePhotos {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+        .addToCart {
+            width: 150px;
+            height: 30px;
+            border-radius: 25px;
+            background-color: #fff;
+        }
+
+        // .repeatButton {}
+
+        // .heartIcon {}
+    }
+}

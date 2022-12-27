@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+.fashionStore {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+
+    .zorka {
+        width: 37%;
+        background-image: url(../Assets/images/home-bg-1.jpg);
+
+        span {
+            display: block;
+        }
+    }
+
+    .tuesday {
+        width: 37%;
+        background-image: url(../Assets/images/home-bg-2.jpg);
+    }
+}
