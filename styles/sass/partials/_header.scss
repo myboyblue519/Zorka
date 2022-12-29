@@ -5,7 +5,11 @@
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid gray;
+    align-items: flex-start;
+    border-bottom: 2px solid lightgray;
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 
     .login {}
 
@@ -13,6 +17,12 @@
         list-style: none;
         display: flex;
         justify-content: center;
+        margin-top: 0;
+
+
+        li {
+            margin-left: 15px;
+        }
     }
 }
 
@@ -22,11 +32,22 @@ header {
     .iconsLogo {
         display: flex;
         justify-content: space-between;
+
         // color: grey;
+        .logo {
+            padding-right: 4rem;
+        }
 
         i {
             color: lightgray;
             margin-right: .4rem;
+
+        }
+
+        .social {
+            i:hover {
+                color: #000;
+            }
         }
     }
 
@@ -50,6 +71,7 @@ header {
             a {
                 text-decoration: none;
                 color: #000;
+                margin: auto 1.4rem;
             }
         }
     }
@@ -67,52 +89,93 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 
-    h2 {
-        font-family: $bodyFont;
-        text-transform: uppercase;
-        font-weight: 100;
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
 
-    }
+        h2 {
+            font-family: $bodyFont;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: .9rem;
+            letter-spacing: .3rem;
+            margin-bottom: 0;
 
-    h1 {
-        font-size: 3.5rem;
-        font-weight: 100;
-        margin-top: 0;
-    }
 
-    button {
-        font-family: $bodyFont;
-        width: 120px;
-        height: 30px;
-        border-radius: 25px;
-        text-transform: uppercase;
-        background-color: white;
-        border: none;
+        }
+
+        h1 {
+            font-size: 3.3rem;
+            font-weight: 100;
+            margin-top: 0;
+        }
+
+        button {
+            font-family: $bodyFont;
+            width: 120px;
+            height: 30px;
+            border-radius: 25px;
+            text-transform: uppercase;
+            background-color: white;
+            border: none;
+        }
     }
 }
 
 .saleLinks {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 30vh;
 
     div {
         // display: inline;
         width: 30%;
-        height: 15%;
+        height: 40%;
         text-transform: uppercase;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        p {
+            margin-right: 0.6rem;
+            font-size: .8rem;
+            color: white;
+        }
+
+        img {
+            padding: 0.9rem;
+        }
+    }
+}
+
+.shopping {
+    background-color: #CA7379;
+
+    img {
+        background-color: #b4656a;
+
     }
 
-    .shopping {
-        background-color: #CA7379;
+}
+
+.gift {
+    background-color: #C1AC91;
+
+    img {
+
+        background-color: #b4a188;
     }
 
-    .gift {
-        background-color: #C1AC91;
+}
 
-    }
+.diamond {
+    background-color: #8090A1;
 
-    .diamond {
-        background-color: #8090A1;
+    img {
+        background-color: #4d5761;
     }
 }

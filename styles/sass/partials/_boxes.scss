@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+.bottomBoxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+
+    .infoBox {
+        border: 2px solid #CA7379;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+}

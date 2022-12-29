@@ -1,7 +1,7 @@
 @use "partials/variables" as *;
+@use "partials/baseStyles";
 @use "partials/header";
 @use "partials/typography";
-@use "partials/baseStyles";
 @use "partials/trendy";
 @use "partials/fashion";
 @use "partials/saleOff";
@@ -9,3 +9,7 @@
 @use "partials/collections";
 @use "partials/blog";
 @use "partials/subscribe";
+@use "partials/logos";
+@use "partials/boxes";
+@use "partials/closingLinks";
+@use "partials/footer";

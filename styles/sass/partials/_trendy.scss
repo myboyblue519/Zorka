@@ -8,13 +8,21 @@
     text-transform: uppercase;
 
     .trendyImg {
-        width: 10rem;
+        // width: 17rem;
+    }
+
+    h3 {
+        font-weight: normal;
+        letter-spacing: .3rem;
     }
 
     h4 {
         font-size: 1rem;
         font-style: italic;
         text-transform: capitalize;
+        font-weight: lighter;
+        font-family: $headingFont;
+        margin-top: 0;
     }
 
     .clothingDepartments {
@@ -33,6 +41,10 @@
         display: flex;
         list-style: none;
         justify-content: center;
+
+        li {}
+
+        div {}
 
         p {
             font-size: 0.8rem;

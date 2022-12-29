@@ -1,0 +1,32 @@
+@use "variables" as *;
+
+
+.closingLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+    h5 {
+        text-decoration: underline;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            text-transform: uppercase;
+            font-family: $bodyFont;
+            font-weight: 100;
+            color: grey;
+            font-size: .8rem;
+            margin-bottom: .2rem;
+        }
+    }
+
+    .location {}
+
+    .help {}
+
+    .policies {}
+
+    .company {}
+}

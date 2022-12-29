@@ -8,30 +8,8 @@
 
 
 
-    .newIn {
-        ul {
-            display: flex;
-            flex-direction: column;
-        }
-
-        li {
-            list-style: none;
-            display: flex;
-        }
-    }
-
-    .featured {
-        ul {
-            display: flex;
-            flex-direction: column;
-        }
-
-        li {
-            list-style: none;
-            display: flex;
-        }
-    }
-
+    .newIn,
+    .featured,
     .topRated {
         ul {
             display: flex;
@@ -43,4 +21,28 @@
             display: flex;
         }
     }
+
+    // .featured {
+    //     ul {
+    //         display: flex;
+    //         flex-direction: column;
+    //     }
+
+    //     li {
+    //         list-style: none;
+    //         display: flex;
+    //     }
+    // }
+
+    // .topRated {
+    //     ul {
+    //         display: flex;
+    //         flex-direction: column;
+    //     }
+
+    //     li {
+    //         list-style: none;
+    //         display: flex;
+    //     }
+    // }
 }
