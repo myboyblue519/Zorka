@@ -11,6 +11,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 30%;
+        width: 19%;
+
+        img {
+            padding: 20px;
+        }
+
+        div {
+            padding: 5px;
+
+            h5 {
+                margin: 2px auto;
+            }
+
+            h6 {
+                margin: 2px auto;
+            }
+        }
     }
 }

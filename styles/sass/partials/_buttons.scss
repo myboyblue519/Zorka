@@ -7,6 +7,8 @@
     border-radius: 25px;
     background-color: #fff;
     text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: lighter;
 }
 
 .addToCart:hover {
@@ -25,4 +27,17 @@
     border-radius: 50%;
 
 
+}
+
+
+.susbscribeButton {
+    width: 150px;
+    height: 130%;
+    border-radius: 25px;
+    background-color: lightcoral;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: lighter;
+    border: none;
 }

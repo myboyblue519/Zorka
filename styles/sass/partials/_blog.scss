@@ -1,12 +1,34 @@
 @use "variables" as *;
 
 .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 50%;
+    }
+
     ul {
         display: flex;
 
         li {
             list-style: none;
             display: flex;
+
+            div {
+                p {
+                    font-size: 0.8rem;
+                    color: grey;
+                }
+
+                .read {
+                    text-transform: uppercase;
+                    color: red;
+                }
+            }
+
         }
     }
 }

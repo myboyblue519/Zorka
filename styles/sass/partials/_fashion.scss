@@ -2,20 +2,51 @@
 
 .fashionStore {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 30vh;
 
     .zorka {
-        width: 37%;
+        width: 45%;
         background-image: url(../Assets/images/home-bg-1.jpg);
 
         span {
             display: block;
+            text-transform: uppercase;
+            color: white;
+            font-family: $baseFont;
+            font-size: 1.5rem;
+            font-weight: 600;
         }
     }
 
+    .zorkaFasion {
+        position: relative;
+        top: 41px;
+        right: -245px;
+    }
+
     .tuesday {
-        width: 37%;
+        width: 45%;
         background-image: url(../Assets/images/home-bg-2.jpg);
+
+        .fiftyOff {
+            position: relative;
+            top: 30%;
+            left: 25%;
+            display: flex;
+            border: 2px solid white;
+            width: 50%;
+            text-align: center;
+            text-transform: uppercase;
+
+            img {
+                border-right: 2px solid white;
+            }
+
+            span {
+                display: block;
+                color: white;
+            }
+        }
     }
 }

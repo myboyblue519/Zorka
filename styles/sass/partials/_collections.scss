@@ -4,21 +4,24 @@
     display: flex;
     justify-content: center;
 
-    // flex-direction: ;
+    div {
+        h5 {
+            margin-top: 0;
 
+        }
 
+        img {
+            height: 10%;
+        }
 
-    .newIn,
-    .featured,
-    .topRated {
         ul {
             display: flex;
             flex-direction: column;
-        }
 
-        li {
-            list-style: none;
-            display: flex;
+            li {
+                list-style: none;
+                display: flex;
+            }
         }
     }
 
