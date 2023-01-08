@@ -772,7 +772,7 @@ header nav ul a {
           align-items: center;
 }
 .blog img {
-  height: 50%;
+  margin: 1rem;
 }
 .blog ul {
   display: -webkit-box;
@@ -786,7 +786,7 @@ header nav ul a {
   display: flex;
 }
 .blog ul li div p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: grey;
 }
 .blog ul li div .read {
@@ -795,7 +795,7 @@ header nav ul a {
 }
 
 .subscribe {
-  height: 55vh;
+  height: 40vh;
   background-image: url(../Assets/images/home-bg-3.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -834,29 +834,32 @@ header nav ul a {
 .subscribe .subscribeSection input {
   border-radius: 25px;
   border: none;
-}
-.subscribe .subscribeSection input input {
   height: 130%;
 }
 .subscribe .subscribeSection input::-webkit-input-placeholder {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .subscribe .subscribeSection input::-moz-placeholder {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .subscribe .subscribeSection input:-ms-input-placeholder {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .subscribe .subscribeSection input::-ms-input-placeholder {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .subscribe .subscribeSection input::placeholder {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .logos {
@@ -879,11 +882,12 @@ header nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-bottom: 5rem;
 }
 .bottomBoxes .infoBox {
   border: 2px solid #CA7379;
@@ -896,7 +900,8 @@ header nav ul a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 19%;
+  width: 20%;
+  margin: 0 2rem;
 }
 .bottomBoxes .infoBox img {
   padding: 20px;
@@ -915,15 +920,18 @@ header nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  margin-bottom: 4rem;
 }
 .closingLinks h5 {
   text-decoration: underline;
+}
+.closingLinks ul {
+  padding: 0;
 }
 .closingLinks ul li {
   list-style: none;
@@ -933,6 +941,22 @@ header nav ul a {
   color: grey;
   font-size: 0.8rem;
   margin-bottom: 0.2rem;
+}
+.closingLinks .location h6 {
+  text-transform: uppercase;
+}
+.closingLinks .location h4 {
+  font-style: normal;
+  color: grey;
+  font-weight: 700;
+  font-family: "MerriweatherSans";
+}
+.closingLinks .location .social {
+  color: lightgray;
+  margin-right: 0.4rem;
+}
+.closingLinks .location .social i:hover {
+  color: #000;
 }
 footer {
   display: -webkit-box;
@@ -945,6 +969,11 @@ footer {
       -ms-flex-align: center;
           align-items: center;
 }
+footer .copyright p {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 0.8rem;
+}
 footer .payment ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -952,4 +981,7 @@ footer .payment ul {
 }
 footer .payment ul li {
   list-style: none;
+}
+footer .payment ul li img {
+  margin-right: 0.4rem;
 }

@@ -2,16 +2,17 @@
 
 .bottomBoxes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
-
+    margin-bottom: 5rem;
 
     .infoBox {
         border: 2px solid #CA7379;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 19%;
+        width: 20%;
+        margin: 0 2rem;
 
         img {
             padding: 20px;

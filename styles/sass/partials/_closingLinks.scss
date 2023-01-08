@@ -3,14 +3,17 @@
 
 .closingLinks {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: baseline;
+    margin-bottom: 4rem;
 
     h5 {
         text-decoration: underline;
     }
 
     ul {
+        padding: 0;
+
         li {
             list-style: none;
             text-transform: uppercase;
@@ -22,7 +25,32 @@
         }
     }
 
-    .location {}
+    .location {
+        h6 {
+            text-transform: uppercase;
+        }
+
+        h4 {
+            font-style: normal;
+            color: grey;
+            font-weight: 700;
+            font-family: $bodyFont;
+        }
+
+        .social {
+            color: lightgray;
+            margin-right: .4rem;
+
+        }
+
+        .social {
+            i:hover {
+                color: #000;
+            }
+        }
+
+
+    }
 
     .help {}
 

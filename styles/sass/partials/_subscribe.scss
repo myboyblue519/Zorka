@@ -2,7 +2,7 @@
 
 
 .subscribe {
-    height: 55vh;
+    height: 40vh;
     background-image: url(../Assets/images/home-bg-3.jpg);
     display: flex;
     justify-content: center;
@@ -27,20 +27,20 @@
             color: white;
         }
 
+
         input {
             border-radius: 25px;
             border: none;
+            height: 130%;
 
-            input {
-                height: 130%;
 
-            }
 
         }
 
         input::placeholder {
-            font-size: .8rem;
+            font-size: .7rem;
             text-transform: uppercase;
+            text-align: center;
         }
     }
 }

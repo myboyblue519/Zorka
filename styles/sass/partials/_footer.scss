@@ -5,7 +5,13 @@ footer {
     justify-content: space-between;
     align-items: center;
 
-    .copyright {}
+    .copyright {
+        p {
+            text-transform: uppercase;
+            color: gray;
+            font-size: 0.8rem;
+        }
+    }
 
     .payment {
         ul {
@@ -13,6 +19,10 @@ footer {
 
             li {
                 list-style: none;
+
+                img {
+                    margin-right: .4rem;
+                }
             }
         }
     }
