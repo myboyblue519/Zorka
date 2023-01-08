@@ -3,15 +3,21 @@
 .collections {
     display: flex;
     justify-content: center;
+    margin: 10rem auto;
+
 
     div {
-        h5 {
-            margin-top: 0;
+        h6 {
+            font-size: 1rem;
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-family: inherit;
+            font-weight: normal;
 
         }
 
-        img {
-            height: 10%;
+        .thumbnail {
+            margin: 2rem;
         }
 
         ul {
@@ -25,27 +31,9 @@
         }
     }
 
-    // .featured {
-    //     ul {
-    //         display: flex;
-    //         flex-direction: column;
-    //     }
-
-    //     li {
-    //         list-style: none;
-    //         display: flex;
-    //     }
-    // }
-
-    // .topRated {
-    //     ul {
-    //         display: flex;
-    //         flex-direction: column;
-    //     }
-
-    //     li {
-    //         list-style: none;
-    //         display: flex;
-    //     }
-    // }
+    .threeButtons {
+        /* margin-right: 0rem; */
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
 }

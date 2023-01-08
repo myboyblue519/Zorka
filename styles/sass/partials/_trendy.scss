@@ -9,6 +9,7 @@
 
     .trendyImg {
         // width: 17rem;
+        height: 17rem;
     }
 
     h3 {
@@ -44,11 +45,14 @@
 
         li {}
 
-        div {}
+        div {
+            margin: 0 1rem;
+        }
 
         p {
             font-size: 0.8rem;
         }
+
 
 
     }

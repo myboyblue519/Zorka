@@ -286,7 +286,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-style: italic;
   text-transform: capitalize;
   font-weight: lighter;
@@ -296,13 +296,64 @@ h4 {
 
 h5 {
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-family: "MerriweatherSans";
   font-weight: 500;
 }
 
 .price {
   color: red;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.addToCart {
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  margin-right: 1.4rem;
+}
+
+.addToCart:hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+.repeatButton {
+  background-color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.heartIcon {
+  background-color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cartButton {
+  background-color: white;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.susbscribeButton {
+  width: 150px;
+  height: 130%;
+  border-radius: 25px;
+  background-color: lightcoral;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  border: none;
 }
 
 .welcome {
@@ -346,6 +397,7 @@ header .iconsLogo {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 2rem;
 }
 header .iconsLogo .logo {
   padding-right: 4rem;
@@ -428,7 +480,7 @@ header nav ul a {
   font-family: "MerriweatherSans";
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 0.3rem;
   margin-bottom: 0;
 }
@@ -436,6 +488,7 @@ header nav ul a {
   font-size: 3.3rem;
   font-weight: 100;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 .heroImage .introduction button {
   font-family: "MerriweatherSans";
@@ -445,6 +498,8 @@ header nav ul a {
   text-transform: uppercase;
   background-color: white;
   border: none;
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
 
 .saleLinks {
@@ -465,9 +520,9 @@ header nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -478,7 +533,8 @@ header nav ul a {
   color: white;
 }
 .saleLinks div img {
-  padding: 0.9rem;
+  padding: 1rem;
+  margin-right: -1rem;
 }
 
 .shopping {
@@ -531,6 +587,9 @@ header nav ul a {
           flex-direction: column;
   text-transform: uppercase;
 }
+.trendy .trendyImg {
+  height: 17rem;
+}
 .trendy h3 {
   font-weight: normal;
   letter-spacing: 0.3rem;
@@ -568,6 +627,9 @@ header nav ul a {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.trendy .trendingPhotos div {
+  margin: 0 1rem;
+}
 .trendy .trendingPhotos p {
   font-size: 0.8rem;
 }
@@ -576,10 +638,11 @@ header nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 30vh;
+  margin: 2rem auto;
 }
 .fashionStore .zorka {
   width: 45%;
@@ -604,8 +667,8 @@ header nav ul a {
 }
 .fashionStore .tuesday .fiftyOff {
   position: relative;
-  top: 30%;
-  left: 25%;
+  top: 36%;
+  left: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -616,6 +679,9 @@ header nav ul a {
 }
 .fashionStore .tuesday .fiftyOff img {
   border-right: 2px solid white;
+}
+.fashionStore .tuesday .fiftyOff .offText {
+  font-weight: 900;
 }
 .fashionStore .tuesday .fiftyOff span {
   display: block;
@@ -646,42 +712,8 @@ header nav ul a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.addToCart {
-  width: 150px;
-  height: 30px;
-  border-radius: 25px;
-  background-color: #fff;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  font-weight: lighter;
-}
-
-.addToCart:hover {
-  background-color: lightcoral;
-  color: white;
-}
-
-.repeatButton {
-  background-color: white;
-  border-radius: 50%;
-}
-
-.heartIcon {
-  background-color: white;
-  border-radius: 50%;
-}
-
-.susbscribeButton {
-  width: 150px;
-  height: 130%;
-  border-radius: 25px;
-  background-color: lightcoral;
-  color: white;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  font-weight: lighter;
-  border: none;
+.saleOff .salePhotos li {
+  margin: 0 1rem;
 }
 
 .collections {
@@ -691,12 +723,17 @@ header nav ul a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 10rem auto;
 }
-.collections div h5 {
-  margin-top: 0;
+.collections div h6 {
+  font-size: 1rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: normal;
 }
-.collections div img {
-  height: 10%;
+.collections div .thumbnail {
+  margin: 2rem;
 }
 .collections div ul {
   display: -webkit-box;
@@ -712,6 +749,11 @@ header nav ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.collections .threeButtons {
+  /* margin-right: 0rem; */
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
 .blog {

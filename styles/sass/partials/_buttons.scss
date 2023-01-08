@@ -7,8 +7,9 @@
     border-radius: 25px;
     background-color: #fff;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: lighter;
+    margin-right: 1.4rem;
 }
 
 .addToCart:hover {
@@ -20,11 +21,24 @@
 .repeatButton {
     background-color: white;
     border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+
 }
 
 .heartIcon {
     background-color: white;
     border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+.cartButton {
+    background-color: white;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
 
 
 }

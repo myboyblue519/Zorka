@@ -32,6 +32,7 @@ header {
     .iconsLogo {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 2rem;
 
         // color: grey;
         .logo {
@@ -100,7 +101,7 @@ header {
             font-family: $bodyFont;
             text-transform: uppercase;
             font-weight: 100;
-            font-size: .9rem;
+            font-size: .8rem;
             letter-spacing: .3rem;
             margin-bottom: 0;
 
@@ -111,6 +112,7 @@ header {
             font-size: 3.3rem;
             font-weight: 100;
             margin-top: 0;
+            margin-bottom: 1rem;
         }
 
         button {
@@ -121,6 +123,9 @@ header {
             text-transform: uppercase;
             background-color: white;
             border: none;
+            font-size: .8rem;
+            font-weight: lighter;
+
         }
     }
 }
@@ -137,7 +142,7 @@ header {
         height: 30%;
         text-transform: uppercase;
         display: flex;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
 
         p {
@@ -147,7 +152,9 @@ header {
         }
 
         img {
-            padding: 0.9rem;
+            padding: 1rem;
+            margin-right: -1rem;
+
         }
     }
 }

@@ -2,8 +2,9 @@
 
 .fashionStore {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 30vh;
+    margin: 2rem auto;
 
     .zorka {
         width: 45%;
@@ -31,8 +32,8 @@
 
         .fiftyOff {
             position: relative;
-            top: 30%;
-            left: 25%;
+            top: 36%;
+            left: 33%;
             display: flex;
             border: 2px solid white;
             width: 50%;
@@ -41,6 +42,10 @@
 
             img {
                 border-right: 2px solid white;
+            }
+
+            .offText {
+                font-weight: 900;
             }
 
             span {
