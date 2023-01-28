@@ -8,13 +8,15 @@
     text-transform: uppercase;
 
     .trendyImg {
-        // width: 17rem;
         height: 17rem;
     }
+
+
 
     h3 {
         font-weight: normal;
         letter-spacing: .3rem;
+        margin-bottom: 0.5rem;
     }
 
     h4 {
@@ -36,6 +38,15 @@
             margin: auto 34px;
             font-size: 1rem;
         }
+
+        li:hover {
+            color: lightcoral;
+            padding-bottom: 5px;
+            border-bottom: 2px solid black;
+            position: relative;
+        }
+
+
     }
 
     .trendingPhotos {
@@ -43,17 +54,90 @@
         list-style: none;
         justify-content: center;
 
-        li {}
+        li {
 
-        div {
-            margin: 0 1rem;
+
+            .photosCard {
+
+                margin: 0 1rem;
+
+                .container {
+                    position: relative;
+
+
+
+                    .hoverSearch {
+                        position: absolute;
+                        opacity: 1;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+
+                        .searchIcon {
+                            background-color: lightcoral;
+                            width: 2rem;
+                            height: 2rem;
+                            border-radius: 50%;
+                            color: #fff;
+
+                            .fa-solid.fa-magnifying-glass {
+                                margin-top: .5rem;
+                            }
+
+                        }
+                    }
+
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
+
+            }
+
+
         }
+    }
+}
 
-        p {
-            font-size: 0.8rem;
-        }
+.saleCountdown {
+    position: absolute;
+    bottom: -7.75rem;
+    left: -5.25rem;
+    height: 6rem;
+    width: 12.5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.countdownTime {
+    .circleTime {
+        width: 2rem;
+        height: 2rem;
+        background-color: black;
+        color: #fff;
+        border-radius: 50%;
+        padding: 0.5rem;
+    }
+
+    // .day {
+    //     color: #000;
+    // }
+}
 
 
+.container:hover {
 
+    img {
+        opacity: .2;
+        border: 5px solid rgba(255, 255, 255, 0.459);
+
+    }
+
+    .hoverSearch {
+        opacity: 1;
     }
 }

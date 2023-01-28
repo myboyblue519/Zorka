@@ -316,11 +316,13 @@ h5 {
   font-size: 0.7rem;
   font-weight: lighter;
   margin-right: 1.4rem;
+  border: 1px solid grey;
 }
 
 .addToCart:hover {
   background-color: lightcoral;
   color: white;
+  border: none;
 }
 
 .repeatButton {
@@ -356,6 +358,19 @@ h5 {
   border: none;
 }
 
+@font-face {
+  font-family: Halflings;
+  src: url(../fonts/Halflings/glyphicons-halflings-regular.ttf);
+}
+@font-face {
+  font-family: Merriweather;
+  src: url(../fonts/Merriweather/Merriweather/Merriweather-Italic.ttf);
+  src: url(../fonts/Merriweather/Merriweather/Merriweather-Light.ttf);
+}
+@font-face {
+  font-family: MerriweatherSans;
+  src: url(../fonts/MerriweatherSans/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf);
+}
 .welcome {
   color: grey;
   text-transform: uppercase;
@@ -373,6 +388,9 @@ h5 {
   margin-bottom: 3rem;
   margin-top: 1rem;
 }
+.welcome .login {
+  margin-left: 10%;
+}
 .welcome .settings {
   list-style: none;
   display: -webkit-box;
@@ -382,6 +400,7 @@ h5 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 0;
+  margin-right: 10%;
 }
 .welcome .settings li {
   margin-left: 15px;
@@ -439,6 +458,11 @@ header nav ul a {
   text-decoration: none;
   color: #000;
   margin: auto 1.4rem;
+  line-height: 1rem;
+}
+header nav ul a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
 }
 
 .heroImage {
@@ -499,7 +523,7 @@ header nav ul a {
   background-color: white;
   border: none;
   font-size: 0.8rem;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .saleLinks {
@@ -528,13 +552,13 @@ header nav ul a {
           align-items: center;
 }
 .saleLinks div p {
-  margin-right: 0.6rem;
+  margin: auto;
   font-size: 0.8rem;
   color: white;
 }
 .saleLinks div img {
-  padding: 1rem;
-  margin-right: -1rem;
+  margin-right: 0.1rem;
+  padding: 0.92rem;
 }
 
 .shopping {
@@ -558,19 +582,6 @@ header nav ul a {
   background-color: #4d5761;
 }
 
-@font-face {
-  font-family: Halflings;
-  src: url(../fonts/Halflings/glyphicons-halflings-regular.ttf);
-}
-@font-face {
-  font-family: Merriweather;
-  src: url(../fonts/Merriweather/Merriweather/Merriweather-Italic.ttf);
-  src: url(../fonts/Merriweather/Merriweather/Merriweather-Light.ttf);
-}
-@font-face {
-  font-family: MerriweatherSans;
-  src: url(../fonts/MerriweatherSans/Merriweather_Sans/MerriweatherSans-VariableFont_wght.ttf);
-}
 .trendy {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -593,6 +604,7 @@ header nav ul a {
 .trendy h3 {
   font-weight: normal;
   letter-spacing: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 .trendy h4 {
   font-size: 1rem;
@@ -618,6 +630,12 @@ header nav ul a {
   margin: auto 34px;
   font-size: 1rem;
 }
+.trendy .clothingDepartments li:hover {
+  color: lightcoral;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  position: relative;
+}
 .trendy .trendingPhotos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,20 +645,77 @@ header nav ul a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.trendy .trendingPhotos div {
+.trendy .trendingPhotos li .photosCard {
   margin: 0 1rem;
 }
-.trendy .trendingPhotos p {
+.trendy .trendingPhotos li .photosCard .container {
+  position: relative;
+}
+.trendy .trendingPhotos li .photosCard .container .hoverSearch {
+  position: absolute;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+.trendy .trendingPhotos li .photosCard .container .hoverSearch .searchIcon {
+  background-color: lightcoral;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: #fff;
+}
+.trendy .trendingPhotos li .photosCard .container .hoverSearch .searchIcon .fa-solid.fa-magnifying-glass {
+  margin-top: 0.5rem;
+}
+.trendy .trendingPhotos li .photosCard p {
   font-size: 0.8rem;
+}
+
+.saleCountdown {
+  position: absolute;
+  bottom: -7.75rem;
+  left: -5.25rem;
+  height: 6rem;
+  width: 12.5rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.countdownTime .circleTime {
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.container:hover img {
+  opacity: 0.2;
+  border: 5px solid rgba(255, 255, 255, 0.459);
+}
+.container:hover .hoverSearch {
+  opacity: 1;
 }
 
 .fashionStore {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   height: 30vh;
   margin: 2rem auto;
 }
@@ -827,9 +902,13 @@ header nav ul a {
 }
 .subscribe .subscribeSection h5 {
   color: white;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 .subscribe .subscribeSection h4 {
   color: white;
+  margin-bottom: 2rem;
 }
 .subscribe .subscribeSection input {
   border-radius: 25px;

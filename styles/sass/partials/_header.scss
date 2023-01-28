@@ -11,13 +11,16 @@
     margin-bottom: 3rem;
     margin-top: 1rem;
 
-    .login {}
+    .login {
+        margin-left: 10%;
+    }
 
     .settings {
         list-style: none;
         display: flex;
         justify-content: center;
         margin-top: 0;
+        margin-right: 10%;
 
 
         li {
@@ -73,6 +76,12 @@ header {
                 text-decoration: none;
                 color: #000;
                 margin: auto 1.4rem;
+                line-height: 1rem;
+            }
+
+            a:hover {
+                padding-bottom: 5px;
+                border-bottom: 2px solid;
             }
         }
     }
@@ -124,7 +133,7 @@ header {
             background-color: white;
             border: none;
             font-size: .8rem;
-            font-weight: lighter;
+            font-weight: normal;
 
         }
     }
@@ -146,14 +155,14 @@ header {
         align-items: center;
 
         p {
-            margin-right: 0.6rem;
+            margin: auto;
             font-size: .8rem;
             color: white;
         }
 
         img {
-            padding: 1rem;
-            margin-right: -1rem;
+            margin-right: 0.1rem;
+            padding: 0.92rem;
 
         }
     }
