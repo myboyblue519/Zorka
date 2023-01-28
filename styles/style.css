@@ -308,8 +308,8 @@ h5 {
 }
 
 .addToCart {
-  width: 150px;
-  height: 30px;
+  width: 7.5rem;
+  height: 1.5rem;
   border-radius: 25px;
   background-color: #fff;
   text-transform: uppercase;
@@ -347,9 +347,9 @@ h5 {
 }
 
 .susbscribeButton {
-  width: 150px;
+  width: 7.5rem;
   height: 130%;
-  border-radius: 25px;
+  border-radius: 2.25rem;
   background-color: lightcoral;
   color: white;
   text-transform: uppercase;
@@ -516,9 +516,9 @@ header nav ul a:hover {
 }
 .heroImage .introduction button {
   font-family: "MerriweatherSans";
-  width: 120px;
-  height: 30px;
-  border-radius: 25px;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 2.25rem;
   text-transform: uppercase;
   background-color: white;
   border: none;
@@ -599,7 +599,7 @@ header nav ul a:hover {
   text-transform: uppercase;
 }
 .trendy .trendyImg {
-  height: 17rem;
+  height: 18rem;
 }
 .trendy h3 {
   font-weight: normal;
@@ -676,10 +676,10 @@ header nav ul a:hover {
 
 .saleCountdown {
   position: absolute;
-  bottom: -7.75rem;
-  left: -5.25rem;
+  bottom: -8.05rem;
+  left: -5.75rem;
   height: 6rem;
-  width: 12.5rem;
+  width: 13.5rem;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -790,6 +790,9 @@ header nav ul a:hover {
 .saleOff .salePhotos li {
   margin: 0 1rem;
 }
+.saleOff .salePhotos li .saleImg {
+  height: 18rem;
+}
 
 .collections {
   display: -webkit-box;
@@ -798,7 +801,7 @@ header nav ul a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10rem auto;
+  margin: 5rem auto;
 }
 .collections div h6 {
   font-size: 1rem;
@@ -809,6 +812,9 @@ header nav ul a:hover {
 }
 .collections div .thumbnail {
   margin: 2rem;
+}
+.collections div .thumbnail img {
+  height: 9rem;
 }
 .collections div ul {
   display: -webkit-box;
@@ -826,9 +832,8 @@ header nav ul a:hover {
   display: flex;
 }
 .collections .threeButtons {
-  /* margin-right: 0rem; */
-  margin-top: 3rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
+  margin-top: 6rem;
 }
 
 .blog {
@@ -848,6 +853,7 @@ header nav ul a:hover {
 }
 .blog img {
   margin: 1rem;
+  height: 8rem;
 }
 .blog ul {
   display: -webkit-box;
@@ -880,6 +886,7 @@ header nav ul a:hover {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  background-size: cover;
 }
 .subscribe .subscribeSection {
   display: -webkit-box;
@@ -983,7 +990,7 @@ header nav ul a:hover {
   margin: 0 2rem;
 }
 .bottomBoxes .infoBox img {
-  padding: 20px;
+  padding: 1rem;
 }
 .bottomBoxes .infoBox div {
   padding: 5px;
@@ -1063,4 +1070,20 @@ footer .payment ul li {
 }
 footer .payment ul li img {
   margin-right: 0.4rem;
+}
+
+@media (min-width: 2300px) {
+  .wrapper {
+    max-width: 2000px;
+  }
+  .saleLinks div img {
+    padding: 1.22rem;
+  }
+  html {
+    font-size: 175%;
+  }
+  .fashionStore .zorka,
+.tuesday {
+    background-size: cover;
+  }
 }

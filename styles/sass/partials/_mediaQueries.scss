@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+@media (min-width: 2300px) {
+    .wrapper {
+        max-width: 2000px;
+    }
+
+    .saleLinks div img {
+        padding: 1.22rem;
+    }
+
+    html {
+        font-size: 175%;
+    }
+
+    .fashionStore .zorka,
+    .tuesday {
+        background-size: cover;
+    }
+
+}
