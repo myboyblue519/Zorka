@@ -21,16 +21,79 @@
 }
 
 @media (max-width: 500px) {
+    nav {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .social,
+    .welcome,
+    .shoppingCart {
+        display: none;
+    }
+
     .saleLinks {
         flex-direction: column;
+        margin: 1rem auto;
 
-        .saleLinks div {
+        div {
             width: 100%;
         }
     }
 
-    .trendy .trendingPhotos {
+
+    .trendy {
+        .trendingPhotos {
+            flex-direction: column;
+        }
+
+        h3 {
+            margin-top: 2rem;
+        }
+
+        .clothingDepartments li {
+            margin: auto .75rem;
+        }
+    }
+
+    .fashionStore {
+        flex-direction: column;
+        height: 60vh;
+
+        .zorka,
+        .tuesday {
+            width: 100%;
+            height: 30%;
+        }
+    }
+
+    .saleOff .salePhotos {
+        flex-direction: column;
+    }
+
+    .collections {
 
         flex-direction: column;
     }
+
+    .blog ul {
+        flex-direction: column;
+    }
+
+    .bottomBoxes {
+        flex-direction: column;
+
+        .infoBox {
+            width: 80%;
+            margin: 1rem auto;
+        }
+    }
+
+    .closingLinks {
+        flex-direction: column;
+    }
+
 }

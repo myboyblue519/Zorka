@@ -408,6 +408,7 @@ h5 {
 
 header {
   font-family: "MerriweatherSans";
+  position: relative;
 }
 header .iconsLogo {
   display: -webkit-box;
@@ -580,6 +581,19 @@ header nav ul a:hover {
 }
 .diamond img {
   background-color: #4d5761;
+}
+
+div.mobile {
+  font-size: 2rem;
+  position: absolute;
+  top: 0.3rem;
+  right: 0rem;
+}
+
+div.mobile a:link,
+div.mobile a:visited {
+  color: #000;
+  text-decoration: none;
 }
 
 .trendy {
@@ -1123,16 +1137,80 @@ footer .payment ul li img {
   }
 }
 @media (max-width: 500px) {
+  nav {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .social,
+.welcome,
+.shoppingCart {
+    display: none;
+  }
   .saleLinks {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 1rem auto;
   }
-  .saleLinks .saleLinks div {
+  .saleLinks div {
     width: 100%;
   }
   .trendy .trendingPhotos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .trendy h3 {
+    margin-top: 2rem;
+  }
+  .trendy .clothingDepartments li {
+    margin: auto 0.75rem;
+  }
+  .fashionStore {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 60vh;
+  }
+  .fashionStore .zorka,
+.fashionStore .tuesday {
+    width: 100%;
+    height: 30%;
+  }
+  .saleOff .salePhotos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .collections {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blog ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bottomBoxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bottomBoxes .infoBox {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .closingLinks {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

@@ -31,6 +31,7 @@
 
 header {
     font-family: $bodyFont;
+    position: relative;
 
     .iconsLogo {
         display: flex;
@@ -194,4 +195,17 @@ header {
     img {
         background-color: #4d5761;
     }
+}
+
+div.mobile {
+    font-size: 2rem;
+    position: absolute;
+    top: .3rem;
+    right: 0rem;
+}
+
+div.mobile a:link,
+div.mobile a:visited {
+    color: #000;
+    text-decoration: none;
 }
