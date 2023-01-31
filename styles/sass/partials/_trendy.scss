@@ -68,43 +68,43 @@
 
                     .hoverSearch {
                         position: absolute;
-                        opacity: 1;
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         text-align: center;
+                        background-color: lightcoral;
+                        width: 2rem;
+                        height: 2rem;
+                        border-radius: 50%;
+                        color: #fff;
+                    }
 
-                        .searchIcon {
-                            background-color: lightcoral;
-                            width: 2rem;
-                            height: 2rem;
-                            border-radius: 50%;
-                            color: #fff;
+                    .searchIcon {}
 
-                            .fa-solid.fa-magnifying-glass {
-                                margin-top: .5rem;
-                            }
-
-                        }
+                    .fa-solid.fa-magnifying-glass {
+                        margin-top: .5rem;
                     }
 
                 }
-
-                p {
-                    font-size: 0.8rem;
-                }
-
             }
 
-
         }
+
+        p {
+            font-size: 0.8rem;
+        }
+
     }
+
+
 }
+
+
 
 .saleCountdown {
     position: absolute;
-    bottom: -8.05rem;
-    left: -5.75rem;
+    bottom: -0.05rem;
+    left: -.05rem;
     height: 6rem;
     width: 13.5rem;
     background-color: #fff;
@@ -137,7 +137,31 @@
 
     }
 
-    .hoverSearch {
-        opacity: 1;
-    }
+}
+
+.hoverSearch:hover {
+    display: none;
+}
+
+
+.trendyDiscountBubble {
+    position: absolute;
+    bottom: -38.6rem;
+    right: 46.3rem;
+    background-color: lightcoral;
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: .7rem;
+    padding: auto;
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+.new {
+    position: absolute;
+    right: 46.3rem;
+    bottom: -41.6rem;
+    background-color: #4d5761;
 }

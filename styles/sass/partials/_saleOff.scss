@@ -13,9 +13,26 @@
 
         li {
             margin: 0 1rem;
+            position: relative;
 
             .saleImg {
                 height: 18rem;
+
+            }
+
+            .discountBubble {
+                position: absolute;
+                bottom: 6.4rem;
+                right: .3rem;
+                background-color: lightcoral;
+                color: #fff;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50%;
+                font-size: .7rem;
+                padding: auto;
+                padding-top: 0.8rem;
+                text-align: center;
             }
         }
 

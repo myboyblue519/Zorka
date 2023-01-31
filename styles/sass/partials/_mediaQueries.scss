@@ -19,3 +19,18 @@
     }
 
 }
+
+@media (max-width: 500px) {
+    .saleLinks {
+        flex-direction: column;
+
+        .saleLinks div {
+            width: 100%;
+        }
+    }
+
+    .trendy .trendingPhotos {
+
+        flex-direction: column;
+    }
+}
