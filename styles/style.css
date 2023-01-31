@@ -588,6 +588,7 @@ div.mobile {
   position: absolute;
   top: 0.3rem;
   right: 0rem;
+  display: none;
 }
 
 div.mobile a:link,
